@@ -189,6 +189,8 @@ CDN_PROVIDER cdnList[] = {
   {".cedexis.net", "Cedexis"},
   {".streamprovider.net", "Rocket CDN"},
   {".singularcdn.net.br", "Singular CDN"},
+  {".xlabs.com.br", "XLabs Security CDN"},
+  {".armor.zone", "XLabs Security CDN"},
   {"END_MARKER", "END_MARKER"}
 };
 
@@ -240,7 +242,9 @@ CDN_PROVIDER_HEADER cdnHeaderList[] = {
   {"server", "MNCDN", "Medianova"},
   {"server", "Roast.io", "Roast.io"},
   {"server", "SingularCDN", "Singular CDN"},
-  {"x-rocket-node", "", "Rocket CDN"}
+  {"x-rocket-node", "", "Rocket CDN"},
+  {"x-cdn", "XLabs Security","XLabs Security CDN"},
+  {"Secured", "By XLabs Security www.xlabs.com.br","XLabs Security CDN"}
 };
 
 // Specific providers that require multiple headers
